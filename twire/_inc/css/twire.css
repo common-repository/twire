@@ -1,0 +1,22 @@
+div#twire-post-new-metadata img {
+    margin: 0px 10px;
+}
+
+div#twire-post-new-input-button input {
+    margin: 15px 10px 10px 0px;
+    width: 315px;
+}
+
+div#twire-count {
+    font-size:20px;
+    margin: 15px 0 15px 10px;
+}
+
+div#twire-pagination .page-numbers {
+    font-size:20px;
+    margin: 15px 0 15px 10px;
+}
+
+ul#twire-post-list li {
+    padding: 25px 10px;
+}

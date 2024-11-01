@@ -1,0 +1,42 @@
+/* 
+Basic layout structure styles for BuddyPress Twire. Formats BuddyPress twire pages within any WordPress theme.
+No colors, fonts or pretty stuff. 
+
+These structure styles can be overridden by the theme CSS file if needed.
+*/
+
+.comment-details { float: left; width: 20%; }
+.comment-content { float: right; width: 80%; }
+
+#twire-post-list li, #twire-post-new {
+	position: relative;
+	padding: 1em;
+	min-height: 60px;
+}
+	
+	.twire-post-metadata img.avatar, #twire-post-new img.avatar {
+		float: left;
+		margin: 0 12px 12px 0;
+	}
+	
+	.twire-post-content, #twire-post-new-input {
+		margin-left: 70px;
+	}
+
+#twire-post-new textarea {
+	height: 65px;
+	width: 310px;
+	margin: 0px 0;
+}
+
+#twire-post-submit {
+	width: 312px;
+	margin: 1px 0px 10px;
+}
+
+#twire-post-new-input-button {
+    margin-left: 70px;
+}
+
+
+
